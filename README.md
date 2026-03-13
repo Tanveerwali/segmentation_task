@@ -1,0 +1,7 @@
+# YOLOv8 Segmentation Demo
+
+This project demonstrates a simple **instance segmentation task** using the pretrained **YOLOv8-seg model** from Ultralytics. The main purpose is to showcase segmentation on videos by detecting objects and highlighting them with masks and bounding boxes. The implementation is designed to be simple and fast, making it ideal for demonstrations or learning purposes. Users can upload any short video, and the model will process each frame to generate a segmented output video. The first frame of the video is displayed as a preview in Google Colab, while the full segmented video is saved and can be downloaded for review.  
+
+The code uses the lightweight **YOLOv8n-seg (nano) model** for faster inference, but it can be adapted to larger models if higher accuracy is needed. This project demonstrates how pretrained models can be used for segmentation without any prior annotation or training. It can handle videos of people, animals, or any moving objects, and outputs visually clear results with masks and bounding boxes over detected objects.  
+
+This demo also serves as a foundation for further exploration, such as integrating **object tracking (DeepSORT)** or experimenting with **semantic segmentation models like U-Net or Mask R-CNN** for more precise results. Overall, this repository provides an easy-to-run example of segmentation in computer vision and is perfect for demonstrations, learning, or portfolio purposes.  
